@@ -352,15 +352,17 @@ The remaining pfSense configuration was completed after setting up the Kali Linu
 
 Disabling the firewall to get access:
 
-<img width="630" height="394" alt="image" src="https://github.com/user-attachments/assets/078451b5-94d8-4ff4-b280-d852b7dd5562" />
+<img width="674" height="405" alt="image" src="https://github.com/user-attachments/assets/cb7e18a0-be8e-454f-ab91-015ec27324e0" />
+
 
 Pinging from host machine:
 
-<img width="534" height="196" alt="image" src="https://github.com/user-attachments/assets/f21e2307-31da-4510-b56e-0ebfd62e0d31" />
+<img width="528" height="207" alt="image" src="https://github.com/user-attachments/assets/0e1ade31-c178-4b54-9a1c-4dfa328d32a2" />
+
 
 Setting Firewall rule:
 
-<img width="1215" height="667" alt="image" src="https://github.com/user-attachments/assets/4bf84ac5-9dbc-4047-bec3-9bcfbd4207f3" />
+<img width="1275" height="814" alt="image" src="https://github.com/user-attachments/assets/a76c2dc4-159c-4371-9576-87e15e700da2" />
 
 ---
 
@@ -413,15 +415,15 @@ This confirmed that Ubuntu was connected to the internal network.
 
 Configuration on terminal:
 
-<img width="736" height="443" alt="image" src="https://github.com/user-attachments/assets/ed29fe8b-1753-4103-bfb7-6d5bbc8c7250" />
+<img width="633" height="396" alt="image" src="https://github.com/user-attachments/assets/8a0e1343-5a8c-4d76-93e1-ce2bb00c8d0c" />
 
 Configuration on browser:
 
-<img width="1214" height="543" alt="image" src="https://github.com/user-attachments/assets/70ba4675-1a53-4449-a460-04c8e9e72d5f" />
+<img width="1299" height="834" alt="image" src="https://github.com/user-attachments/assets/32b8777d-22ff-4c71-9b89-d86716aa88dc" />
 
 DHCP test:
 
-<img width="617" height="325" alt="image" src="https://github.com/user-attachments/assets/6522b638-6f4f-4a7a-bcf3-aad7182b416c" />
+<img width="816" height="579" alt="image" src="https://github.com/user-attachments/assets/577baeb3-9d96-489f-8d18-e876a88cef1c" />
 
 ---
 
@@ -457,19 +459,22 @@ This confirmed that Kali could reach the internal network through pfSense before
 
 ### Evidence
 
-<img width="1595" height="554" alt="image" src="https://github.com/user-attachments/assets/356dfed3-6bfe-4d6e-a7fc-9108a92d0616" />
+<img width="1308" height="544" alt="image" src="https://github.com/user-attachments/assets/a443100e-6bb8-4864-a33b-b31fda272906" />
 
 Kali rule:
 
-<img width="1202" height="789" alt="image" src="https://github.com/user-attachments/assets/01611ac4-8059-46f3-a001-c37157d4018b" />
+<img width="1300" height="750" alt="image" src="https://github.com/user-attachments/assets/bf06f589-b2c5-470d-a7d5-b48cd4004691" />
 
-Kali ping test:
 
-<img width="827" height="328" alt="image" src="https://github.com/user-attachments/assets/f1edc483-1684-4f01-b643-8928cbf03d1a" />
+Kali-pfsense ping test:
+
+<img width="811" height="313" alt="image" src="https://github.com/user-attachments/assets/af9ca6c0-0dd2-4e19-957b-e50d4f83410f" />
+
 
 Ubuntu ping test: 
 
-<img width="583" height="147" alt="image" src="https://github.com/user-attachments/assets/d198ca60-a6bd-4d35-b8b3-665575327ff6" />
+<img width="583" height="147" alt="image" src="https://github.com/user-attachments/assets/4e6fce4b-fbb0-48f0-b6f0-4a4eae66f433" />
+
 
 
 ---
@@ -512,11 +517,12 @@ Screenshot:
 
 Attack generated from Kali:
 
-<img width="725" height="232" alt="image" src="https://github.com/user-attachments/assets/7121351b-21ac-494b-b79d-f7f593dd3af8" />
+<img width="722" height="224" alt="image" src="https://github.com/user-attachments/assets/b5978a25-5519-4f66-a4ff-67c3c258e3dd" />
+
 
 Screenshot showing the traffic observed during the test:
 
-<img width="1073" height="644" alt="image" src="https://github.com/user-attachments/assets/33c831fa-5127-41ef-be55-a5cb03a16718" />
+<img width="1063" height="632" alt="image" src="https://github.com/user-attachments/assets/5b892528-5b1e-40c1-826a-8278eac114a2" />
 
 > The original packet capture file is censored because the capture also contained unrelated network traffic from the host environment.
 
@@ -543,8 +549,7 @@ I enabled logging on the rule so that I could verify that pfSense was detecting 
 
 ### Evidence
 
-<img width="627" height="277" alt="image" src="https://github.com/user-attachments/assets/34c9bbbb-3206-42b0-853d-7e92b6b40eba" />
-
+<img width="761" height="342" alt="image" src="https://github.com/user-attachments/assets/4911cf4a-991a-4cd9-9e6d-676ef996b620" />
 
 ## 10. What I Learned
 
